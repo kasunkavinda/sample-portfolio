@@ -18,14 +18,15 @@ export default function Home({ allPostsData }) {
   return (
     <Layout home>
       <Head>
-        <title>{siteTitle}</title>
+        <title>Kasun Kavinda</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
+        <h3>Designer</h3>
         <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          UI/UX product designer specialising in UI design and design systems.
         </p>
+        <h3>Coder</h3>
+        <p>Front-End developer who writes clean, elegant and efficient code.</p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
